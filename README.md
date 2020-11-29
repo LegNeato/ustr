@@ -54,7 +54,7 @@ map.insert(u1, 17);
 assert_eq!(*map.get(&u1).unwrap(), 17);
 ```
 
-By enabling the `"serialize"` feature you can serialize individual `Ustr`s or the whole cache with serde. 
+By enabling the `"serialization"` feature you can serialize individual `Ustr`s or the whole cache with serde. 
 
 ```rust 
 use ustr::{Ustr, ustr};
